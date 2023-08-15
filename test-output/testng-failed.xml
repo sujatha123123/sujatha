@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Web.testpage.assert_Validation">
+        <methods>
+          <include name="Verify_Printer"/>
+          <include name="Screenshot"/>
+          <include name="closewindow"/>
+          <include name="Validate_Text"/>
+          <include name="Validate_usrname_nagativeone"/>
+          <include name="OpeBrowser"/>
+          <include name="Validate_URL"/>
+        </methods>
+      </class> <!-- Web.testpage.assert_Validation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
